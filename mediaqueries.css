@@ -1,0 +1,56 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem ;
+    }
+    .section-container {
+        flex-wrap: wrap;
+    }
+}
+    
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    
+#profile,
+.section-pic-container {
+    display:flex;
+
+    
+
+}
+ .arrow {
+    display: none;
+   }
+ 
+   section .about-container{
+     height: fit-content;
+     
+}
+  #about {
+    width: 1150px;;
+  }
+   section {
+    margin: 0 10%;
+   
+   }
+   #profile {
+    width: 1150px;
+   }
+   #projects {
+    width: 1150px;
+   }
+   #contact {
+    width: 1150px; ;
+   }
+
+ #footer {
+    width:1150px;
+   
+ }
+
+
+}
+
+
